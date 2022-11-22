@@ -11,7 +11,7 @@
       <p class="plan-name">{{plan}}</p>
       <p class="plan-pricing">${{planPricing}}/year</p>
     </div>
-    <secondary-button text="change"></secondary-button>
+    <secondary-button text="Change"></secondary-button>
   </div>
 </template>
 
@@ -73,7 +73,7 @@ export default {
 @media screen and (min-width: 650px) {
   .mini-card {
     height: 98px;
-    padding: 25px;
+    padding: 25px 24px;
   }
 
   .plan-details {
@@ -83,6 +83,7 @@ export default {
   .plan-name {
     font-size: 16px;
     min-width: 118px;
+    margin-bottom: 6px;
   }
 
   .plan-pricing {
